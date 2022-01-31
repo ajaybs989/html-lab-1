@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mashup html lab 1</title>
+</head>
+<body>
+    <form>
+        <label for="name"> Enter your name </label>
+    <input type="text" id="name" name="name" maxlength="25" placeholder="enter your name" required>
+    <br> <br>
+    <label for="email"> Enter your email </label>
+    <input type="email" id="email" name="email" autofocus value="test@example.com" required>
+    <br>  <br>
+    <label for="password"> Enter the password </label>
+    <input type="password" id="password" name="password" minlength="6" maxlength="10" required> 
+    <br>  <br>
+    <label for="profession"> enter your category</label>
+    <select id="profession" name="profession" required>
+        <option value="student"> student</option>
+        <option value="employee">employee</optiion>
+        <option value="freelancer" selected >freelancer</option>
+    </select>
+    <br>  <br>
+    <label for="date"> select the event date</label>
+    <input id="date" type="date" required>
+    <br>
+    <p> select the no of tickets of your choice???</p>
+    <input type="radio" id=" 1 ticket" value="1 ticket" name="tickets">
+    <label for="1 ticket"> 1 ticket</label>
+    <input type="radio" id=" 2 ticket" value="2 ticket" name="tickets" checked >
+    <label for="2 ticket"> 2 tickets</label>
+    <input type="radio" id=" 3 ticket" value="3 ticket" name="tickets">
+    <label for="3 ticket"> 3 tickets</label>
+    <br> <br> <br>
+    <label for="payment">online payment</label>
+    <input type="checkbox" id="payment" required>
+    <br><br>
+    <label for="notes"> comments</label>
+    <textarea id="notes" name="notes" rows="5" cols="20" placeholder="enter your suggestions about the booking" maxlength="25"></textarea>
+    <br>
+    <input type="submit" value="submit" id="submit">
+    </form>
+    
+</body>
+</html>
